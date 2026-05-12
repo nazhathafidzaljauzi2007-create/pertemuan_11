@@ -12,7 +12,7 @@ class ibu
 {
 public:
     //deklarasi member variabel pada class ibu
-    string nama;
+    string nama; 
     
     //membuat constructor dan destructor pada class ibu
     ibu(string pnama) : nama(pnama) 
