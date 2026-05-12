@@ -10,5 +10,11 @@ class anak
 public:
     //deklarasi member variabel pada class anak
     string nama;
+
+    //membuat constructor dan destructor pada class anak
+    anak(string pnama) : nama(pnama) 
+    {
+        cout << "Anak \"" << nama << "\" ada \n";
+    }
     
 }
